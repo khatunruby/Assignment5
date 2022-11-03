@@ -1,0 +1,31 @@
+#Module- A module can define functions,classes, and variables. A module can also include runnable code.
+Types of Module- Built-in Module, User-defined Module
+For Example-
+
+import math
+print(math.Sin(90))
+print(math.Cos(0))
+print(math.pi)
+
+import datetime
+a=datetime.datetime.previous()
+print(a.year)
+
+import mymodule
+mymodule.a("Johny","Good morning")
+
+import example
+example.add(4,5.5)
+
+#importing module cac.py
+import calc
+print(calc.add(10,5))
+
+#importing sqrt() and factorial from the
+#module math
+from math import sqrt,factorial
+#if we simply do"import math",then
+#math.sqrt(16) and math.factorial()
+#are required
+print(sqrt(16))
+print(factorial(6))
